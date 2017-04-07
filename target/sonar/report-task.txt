@@ -1,5 +1,5 @@
 projectKey=hu.bme.mit.spaceship:hu.bme.mit.spaceship
 serverUrl=http://localhost:9000
 dashboardUrl=http://localhost:9000/dashboard/index/hu.bme.mit.spaceship:hu.bme.mit.spaceship
-ceTaskId=AVtH-OpG2TxDc1yLlgTm
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVtH-OpG2TxDc1yLlgTm
+ceTaskId=AVtIOpR32TxDc1yLlgTn
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVtIOpR32TxDc1yLlgTn
