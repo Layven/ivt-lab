@@ -45,21 +45,15 @@ public class GT4500 implements SpaceShip {
         if (wasPrimaryFiredLast) {
           // try to fire the secondary first
           if (!firingSuccess) firingSuccess = fireSecondary();
-
-	  // although primary was fired last time, but the secondary is empty
-	  // thus try to fire primary again
+	  // try to fire primary again
 	  if (!firingSuccess) firingSuccess = firePrimary();
 	  // if both of the stores are empty, nothing can be done, return failure
         }
         else {
           // try to fire the primary first
 	  if (!firingSuccess) firingSuccess = firePrimary();
-
-          // although secondary was fired last time, but primary is empty
-          // thus try to fire secondary again
+          // try to fire secondary again
           if (!firingSuccess) firingSuccess = fireSecondary();
-
-
           // if both of the stores are empty, nothing can be done, return failure
         }
         break;
