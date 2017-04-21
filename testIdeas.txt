@@ -1,0 +1,16 @@
+
+
+Test 1)
+Single fire --> is primary fired?
+
+Test 2)
+single fire 2x --> is primary and secondary both fired?
+
+Test 3)
+single fire 3x --> is primary 2x and secondary 1x fired?
+
+Test 4) 
+single fire 2x with secondary empty --> is primary fired 2x?
+
+Test 5)
+all fire --> is primary and secondary both fired?
